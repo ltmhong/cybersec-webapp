@@ -27,7 +27,7 @@ const items = [
     icon: (<UsersIcon fontSize="small" />),
     title: 'Customers'
   },
-  {
+/*   {
     href: '/products',
     icon: (<ShoppingBagIcon fontSize="small" />),
     title: 'Products'
@@ -57,7 +57,7 @@ const items = [
     icon: (<XCircleIcon fontSize="small" />),
     title: 'Error'
   }
-];
+ */];
 
 export const DashboardSidebar = (props) => {
   const { open, onClose } = props;
@@ -124,15 +124,15 @@ export const DashboardSidebar = (props) => {
                   color="inherit"
                   variant="subtitle1"
                 >
-                  Acme Inc
+                  Minh Hong Le
                 </Typography>
                 <Typography
                   color="neutral.400"
                   variant="body2"
                 >
-                  Your tier
+                  Group
                   {' '}
-                  : Premium
+                  : 7
                 </Typography>
               </div>
               <SelectorIcon
@@ -161,7 +161,7 @@ export const DashboardSidebar = (props) => {
             />
           ))}
         </Box>
-        <Divider sx={{ borderColor: '#2D3748' }} />
+{/*         <Divider sx={{ borderColor: '#2D3748' }} />
         <Box
           sx={{
             px: 2,
@@ -212,7 +212,7 @@ export const DashboardSidebar = (props) => {
             </Button>
           </NextLink>
         </Box>
-      </Box>
+ */}      </Box>
     </>
   );
 
